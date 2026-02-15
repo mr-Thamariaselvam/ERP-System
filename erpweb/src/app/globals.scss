@@ -1,0 +1,31 @@
+@import '@/styles/themes/colors/colors';
+@import '@/styles/themes/fonts/fonts';
+@import '@/styles/themes/sizing/sizing';
+@import '@/styles/themes/spacing/spacing';
+@import '@/styles/themes/styling/styling';
+@import '@/styles/variables';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: var(--font-roboto);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
