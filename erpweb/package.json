@@ -1,0 +1,31 @@
+{
+  "name": "erpweb",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "axios": "^1.13.5",
+    "clsx": "^2.1.1",
+    "lodash": "^4.17.23",
+    "next": "16.1.6",
+    "next-intl": "^4.8.2",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-icons": "^5.5.0",
+    "sass": "^1.97.3"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.1",
+    "stylelint": "^17.3.0",
+    "stylelint-config-standard-scss": "^17.0.0"
+  }
+}
